@@ -1,0 +1,17 @@
+{
+  "images": 1200,
+  "patients_or_inferred_groups": 300,
+  "class_counts": {
+    "0": 300,
+    "1": 300,
+    "2": 300,
+    "3": 300
+  },
+  "duplicate_image_ids": 0,
+  "groups_covering_all_four_classes": 300,
+  "groups_with_exactly_one_image_per_class": 300,
+  "patient_id_source_counts": {
+    "structured_parenthesized_index": 1200
+  },
+  "warning": null
+}
