@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.9638888888888889,
+  "precision_macro": 0.9638154651894272,
+  "recall_macro": 0.9638888888888889,
+  "f1_macro": 0.9637779370243543,
+  "best_validation_f1": 0.9641354102616656,
+  "best_epoch": 20,
+  "test_evaluations": 1
+}

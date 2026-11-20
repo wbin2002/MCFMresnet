@@ -1,0 +1,2 @@
+experiment,model,seed,fold,accuracy,precision_macro,recall_macro,f1_macro,best_validation_f1,best_epoch,test_evaluations
+scratch_mcfm_resnet34_single,mcfm_resnet34,2021,,0.9555555555555556,0.9563358200092317,0.9555555555555556,0.9554532204888591,0.9703409597987911,18,1
