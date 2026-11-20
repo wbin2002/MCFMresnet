@@ -1,0 +1,6 @@
+experiment,model,seed,fold,accuracy,precision_macro,recall_macro,f1_macro,best_validation_f1,best_epoch,test_evaluations,output_dir
+pretrained_swin_t,swin_t,2021,,0.49722222222222223,0.5671640319410718,0.49722222222222223,0.4589721830506386,0.5541664385282898,19,1,outputs/pretrained_swin_t/swin_t/seed_2021
+pretrained_swin_t,swin_t,2022,,0.25,0.0625,0.25,0.1,0.1,1,1,outputs/pretrained_swin_t/swin_t/seed_2022
+pretrained_swin_t,swin_t,2023,,0.30277777777777776,0.15168833109218588,0.30277777777777776,0.18152330015351853,0.20402298850574713,1,1,outputs/pretrained_swin_t/swin_t/seed_2023
+pretrained_swin_t,swin_t,2024,,0.5416666666666666,0.5072169210199851,0.5416666666666666,0.508565114671863,0.4709458915816394,19,1,outputs/pretrained_swin_t/swin_t/seed_2024
+pretrained_swin_t,swin_t,2025,,0.37777777777777777,0.3985820272353546,0.37777777777777777,0.325096911410959,0.3020375125253625,20,1,outputs/pretrained_swin_t/swin_t/seed_2025

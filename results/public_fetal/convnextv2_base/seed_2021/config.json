@@ -1,0 +1,95 @@
+{
+  "dataset": {
+    "name": "FETAL_PLANES_DB",
+    "version": "1.0",
+    "doi": "10.5281/zenodo.3904280",
+    "root": "/mnt/wbin/BMC/public/FETAL_PLANES_ZENODO",
+    "split_manifest": "/mnt/wbin/BMC/public/public_benchmark_official/manifests/split_manifest.csv"
+  },
+  "model": "convnextv2_base",
+  "model_provenance": {
+    "implementation": "timm",
+    "timm_model": "convnextv2_base"
+  },
+  "parameter_count": 87698950,
+  "trainable_parameter_count": 87698950,
+  "training": {
+    "seed": 2021,
+    "epochs": 20,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "warmup_epochs": 0,
+    "label_smoothing": 0.0,
+    "gradient_clip": 0.0,
+    "augmentation": "none",
+    "pretrained": false,
+    "amp": true,
+    "checkpoint_criterion": "validation_macro_f1",
+    "test_evaluations": 1
+  },
+  "preprocessing": {
+    "resize": [
+      224,
+      224
+    ],
+    "grayscale": true,
+    "range": [
+      0.0,
+      1.0
+    ],
+    "repeat_to_three_channels": true,
+    "imagenet_normalization": false
+  },
+  "split": {
+    "train": {
+      "images": 6443,
+      "patients_or_groups": 806,
+      "class_counts": {
+        "0": 312,
+        "1": 1423,
+        "2": 465,
+        "3": 939,
+        "4": 859,
+        "5": 2445
+      }
+    },
+    "validation": {
+      "images": 666,
+      "patients_or_groups": 89,
+      "class_counts": {
+        "0": 40,
+        "1": 186,
+        "2": 49,
+        "3": 115,
+        "4": 121,
+        "5": 155
+      }
+    },
+    "test": {
+      "images": 5261,
+      "patients_or_groups": 894,
+      "class_counts": {
+        "0": 357,
+        "1": 1468,
+        "2": 522,
+        "3": 658,
+        "4": 645,
+        "5": 1611
+      }
+    }
+  },
+  "software": {
+    "python": "3.12.4",
+    "torch": "2.4.0+cu121",
+    "torchvision": "0.19.0+cu121",
+    "scikit_learn": "1.5.0",
+    "cuda_runtime": "12.1",
+    "cudnn": 90100,
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "timm": "1.0.31",
+    "mamba_ssm": null
+  }
+}

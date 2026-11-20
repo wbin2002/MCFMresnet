@@ -1,0 +1,101 @@
+{
+  "dataset": {
+    "name": "FETAL_PLANES_DB",
+    "version": "1.0",
+    "doi": "10.5281/zenodo.3904280",
+    "metadata": "/mnt/wbin/BMC/public/FETAL_PLANES_ZENODO/FETAL_PLANES_DB_data.csv"
+  },
+  "validation": {
+    "seed": 2021,
+    "fraction_of_official_training_patients": 0.1,
+    "selection": "seeded random sample of official training patient IDs only"
+  },
+  "official_before_integrity_exclusions": {
+    "official_test": {
+      "images": 5271,
+      "patients": 896
+    },
+    "official_train": {
+      "images": 7129,
+      "patients": 896
+    }
+  },
+  "official_class_counts_before_integrity_exclusions": {
+    "official_test": {
+      "Fetal abdomen": 358,
+      "Fetal brain": 1472,
+      "Fetal femur": 524,
+      "Fetal thorax": 660,
+      "Maternal cervix": 645,
+      "Other": 1612
+    },
+    "official_train": {
+      "Fetal abdomen": 353,
+      "Fetal brain": 1620,
+      "Fetal femur": 516,
+      "Fetal thorax": 1058,
+      "Maternal cervix": 981,
+      "Other": 2601
+    }
+  },
+  "integrity": {
+    "metadata_rows": 12400,
+    "usable_images": 12370,
+    "excluded_images": 30,
+    "exclusion_reasons": {
+      "zero_byte": 30
+    }
+  },
+  "final_split": {
+    "train": {
+      "images": 6443,
+      "patients": 806,
+      "class_counts": {
+        "Fetal abdomen": 312,
+        "Fetal brain": 1423,
+        "Fetal femur": 465,
+        "Fetal thorax": 939,
+        "Maternal cervix": 859,
+        "Other": 2445
+      }
+    },
+    "validation": {
+      "images": 666,
+      "patients": 89,
+      "class_counts": {
+        "Fetal abdomen": 40,
+        "Fetal brain": 186,
+        "Fetal femur": 49,
+        "Fetal thorax": 115,
+        "Maternal cervix": 121,
+        "Other": 155
+      }
+    },
+    "test": {
+      "images": 5261,
+      "patients": 894,
+      "class_counts": {
+        "Fetal abdomen": 357,
+        "Fetal brain": 1468,
+        "Fetal femur": 522,
+        "Fetal thorax": 658,
+        "Maternal cervix": 645,
+        "Other": 1611
+      }
+    }
+  },
+  "patient_overlap_counts": {
+    "official_train_vs_test": 0,
+    "train_vs_validation": 0,
+    "train_vs_test": 0,
+    "validation_vs_test": 0
+  },
+  "class_to_label": {
+    "Fetal abdomen": 0,
+    "Fetal brain": 1,
+    "Fetal femur": 2,
+    "Fetal thorax": 3,
+    "Maternal cervix": 4,
+    "Other": 5
+  }
+}

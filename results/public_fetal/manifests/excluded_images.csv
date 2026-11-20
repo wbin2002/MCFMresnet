@@ -1,0 +1,31 @@
+image_id,patient_id,class_name,label,image_path,official_subset,subset,usable,integrity_status
+Patient00694_Plane4_1_of_1,0694,Maternal cervix,4,Images/Patient00694_Plane4_1_of_1.png,official_train,train,False,zero_byte
+Patient00694_Plane5_1_of_1,0694,Fetal femur,2,Images/Patient00694_Plane5_1_of_1.png,official_train,train,False,zero_byte
+Patient00694_Plane6_1_of_3,0694,Fetal thorax,3,Images/Patient00694_Plane6_1_of_3.png,official_train,train,False,zero_byte
+Patient00694_Plane6_2_of_3,0694,Fetal thorax,3,Images/Patient00694_Plane6_2_of_3.png,official_train,train,False,zero_byte
+Patient00694_Plane6_3_of_3,0694,Fetal thorax,3,Images/Patient00694_Plane6_3_of_3.png,official_train,train,False,zero_byte
+Patient00695_Plane3_1_of_4,0695,Fetal brain,1,Images/Patient00695_Plane3_1_of_4.png,official_train,train,False,zero_byte
+Patient00695_Plane3_2_of_4,0695,Fetal brain,1,Images/Patient00695_Plane3_2_of_4.png,official_train,train,False,zero_byte
+Patient00695_Plane3_3_of_4,0695,Fetal brain,1,Images/Patient00695_Plane3_3_of_4.png,official_train,train,False,zero_byte
+Patient00695_Plane3_4_of_4,0695,Fetal brain,1,Images/Patient00695_Plane3_4_of_4.png,official_train,train,False,zero_byte
+Patient00695_Plane1_1_of_1,0695,Other,5,Images/Patient00695_Plane1_1_of_1.png,official_train,train,False,zero_byte
+Patient01123_Plane3_3_of_4,1123,Fetal brain,1,Images/Patient01123_Plane3_3_of_4.png,official_train,train,False,zero_byte
+Patient01123_Plane3_4_of_4,1123,Fetal brain,1,Images/Patient01123_Plane3_4_of_4.png,official_train,train,False,zero_byte
+Patient01124_Plane2_1_of_1,1124,Fetal abdomen,0,Images/Patient01124_Plane2_1_of_1.png,official_train,validation,False,zero_byte
+Patient01124_Plane3_1_of_4,1124,Fetal brain,1,Images/Patient01124_Plane3_1_of_4.png,official_train,validation,False,zero_byte
+Patient01124_Plane3_2_of_4,1124,Fetal brain,1,Images/Patient01124_Plane3_2_of_4.png,official_train,validation,False,zero_byte
+Patient01124_Plane3_3_of_4,1124,Fetal brain,1,Images/Patient01124_Plane3_3_of_4.png,official_train,validation,False,zero_byte
+Patient01124_Plane3_4_of_4,1124,Fetal brain,1,Images/Patient01124_Plane3_4_of_4.png,official_train,validation,False,zero_byte
+Patient01124_Plane5_1_of_1,1124,Fetal femur,2,Images/Patient01124_Plane5_1_of_1.png,official_train,validation,False,zero_byte
+Patient01124_Plane6_1_of_1,1124,Fetal thorax,3,Images/Patient01124_Plane6_1_of_1.png,official_train,validation,False,zero_byte
+Patient01125_Plane3_1_of_2,1125,Fetal brain,1,Images/Patient01125_Plane3_1_of_2.png,official_train,train,False,zero_byte
+Patient01573_Plane3_2_of_2,1573,Fetal brain,1,Images/Patient01573_Plane3_2_of_2.png,official_test,test,False,zero_byte
+Patient01573_Plane5_1_of_1,1573,Fetal femur,2,Images/Patient01573_Plane5_1_of_1.png,official_test,test,False,zero_byte
+Patient01574_Plane3_1_of_1,1574,Fetal brain,1,Images/Patient01574_Plane3_1_of_1.png,official_test,test,False,zero_byte
+Patient01574_Plane6_1_of_2,1574,Fetal thorax,3,Images/Patient01574_Plane6_1_of_2.png,official_test,test,False,zero_byte
+Patient01574_Plane6_2_of_2,1574,Fetal thorax,3,Images/Patient01574_Plane6_2_of_2.png,official_test,test,False,zero_byte
+Patient01575_Plane2_1_of_1,1575,Fetal abdomen,0,Images/Patient01575_Plane2_1_of_1.png,official_test,test,False,zero_byte
+Patient01575_Plane3_1_of_2,1575,Fetal brain,1,Images/Patient01575_Plane3_1_of_2.png,official_test,test,False,zero_byte
+Patient01575_Plane3_2_of_2,1575,Fetal brain,1,Images/Patient01575_Plane3_2_of_2.png,official_test,test,False,zero_byte
+Patient01575_Plane5_1_of_1,1575,Fetal femur,2,Images/Patient01575_Plane5_1_of_1.png,official_test,test,False,zero_byte
+Patient01576_Plane1_1_of_1,1576,Other,5,Images/Patient01576_Plane1_1_of_1.png,official_test,test,False,zero_byte

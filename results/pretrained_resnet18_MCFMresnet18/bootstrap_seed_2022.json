@@ -1,0 +1,9 @@
+{
+  "reference_f1": 0.9611644182577977,
+  "comparison_f1": 0.997222136485694,
+  "paired_difference": 0.036057718227896274,
+  "bootstrap_ci_95_low": 0.01684175292611967,
+  "bootstrap_ci_95_high": 0.05597588311256407,
+  "bootstrap_iterations": 10000,
+  "resampling_unit": "patient_or_verified_group"
+}
