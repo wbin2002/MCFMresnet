@@ -1,0 +1,2 @@
+experiment,model,seed,fold,accuracy,precision_macro,recall_macro,f1_macro,best_validation_f1,best_epoch,test_evaluations
+fusion_gap,mcfm_resnet18,2021,,0.9416666666666667,0.9418289400757615,0.9416666666666667,0.9415284769798691,0.9521416749300926,19,1

@@ -1,0 +1,6 @@
+experiment,model,seed,fold,accuracy,precision_macro,recall_macro,f1_macro,best_validation_f1,best_epoch,test_evaluations,output_dir
+pretrained_efficientnet_b0,efficientnet_b0,2021,,0.9944444444444445,0.9945652173913043,0.9944444444444445,0.9944594511633618,0.9880935506732813,7,1,outputs/pretrained_efficientnet_b0/efficientnet_b0/seed_2021
+pretrained_efficientnet_b0,efficientnet_b0,2022,,1.0,1.0,1.0,1.0,1.0,11,1,outputs/pretrained_efficientnet_b0/efficientnet_b0/seed_2022
+pretrained_efficientnet_b0,efficientnet_b0,2023,,0.9861111111111112,0.9861700799200799,0.9861111111111112,0.9860947296542305,0.9940467753366407,9,1,outputs/pretrained_efficientnet_b0/efficientnet_b0/seed_2023
+pretrained_efficientnet_b0,efficientnet_b0,2024,,0.9861111111111112,0.9865839243498818,0.9861111111111112,0.9861056214317084,0.9881619501260857,16,1,outputs/pretrained_efficientnet_b0/efficientnet_b0/seed_2024
+pretrained_efficientnet_b0,efficientnet_b0,2025,,0.9861111111111112,0.9865527133636147,0.9861111111111112,0.9861696364484884,0.9940467753366407,19,1,outputs/pretrained_efficientnet_b0/efficientnet_b0/seed_2025
